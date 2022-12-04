@@ -1,10 +1,11 @@
-# MMM-TRV-WastePlan
-A MagicMirror2 module for showing the waste plan for your destination in Trondheim, Norway.
+# MMM-MinRenovasjon (in development) a fork from MMM-TRV-WastePlan 
+A MagicMirror2 module for showing the waste plan for your destination from Min Renovasjon.
+
 
 ##### Inspired by:
-* https://github.com/blixhavn/MMM-AvfallshentingOslo/blob/main/MMM-AvfallshentingOslo.js
-* https://github.com/jeroenpeters1986/MMM-ROVA-trashcalendar
-* https://github.com/jonkristian/wasteplan_trv (for Home Assistant)
+* https://github.com/VHamar/HomeyPro/blob/5d81fa00e7170302470b28be17f46f8b3a8303b1/Scripts/rest-getaddressinfo.js
+* https://github.com/VHamar/HomeyPro/blob/5d81fa00e7170302470b28be17f46f8b3a8303b1/Scripts/rest-mrendatoer.js
+
 
 ## Dependencies
   * A [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror) installation
@@ -18,7 +19,7 @@ cd ~/MagicMirror/modules
 
 Clone this repository and install the dependencies:
 ````
-git clone https://github.com/reidarw/MMM-TRV-WastePlan.git
+git clone https://github.com/late4marshmellow/MMM-TRV-WastePlan.git
 ````
 
 Add the module to the modules array in the `config/config.js` file
