@@ -58,7 +58,7 @@ function padTo2Digits(num) {
     }
   }
 
-//
+//kopi fra Min Renovasjon til homey over, se om dette kan flettes..
 
 const request = require('request');
 const node_helper = require("node_helper");
